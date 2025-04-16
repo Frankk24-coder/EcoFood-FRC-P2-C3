@@ -1,0 +1,72 @@
+/* 
+    Colores y estilos generales
+*/
+
+html, body {
+    background: #E0EFEA; /* es el color de fondo */
+    font-family: Inter, Regular; 
+    height: 100%; /* Esto es el 100% de la altura de la pantalla */
+    margin: 0;  /* esto es para que no alla margen al rededor del body */
+    display: flex; /* Esto para que sea mas flexible tanto el body como el html como alinear y distribuir elementos */
+    flex-direction: column; /*Indica que los elementos hijos dentro del <body> se apilarán uno debajo del otro*/
+}
+
+/* 
+    Estilos de la barra de arriba
+*/
+
+.navbar {
+    background-color: transparent; /* Creo que lo deja transparente */
+    padding: 15px 0; /* Es para seprarlos bordes creo*/    
+}
+
+
+.navbar-brand {
+ font-size: 28px; /* Por que no tiene un 0 al final como el otro */
+ font-weight: bold; /* Que es esto? */
+ color: #50603A !important; /* Que es esto? */
+}
+
+
+.nav-link {
+    color: #546b45 !important; /* Dice verde para los enlaces, pero en que sentido ? */
+    margin: 0 5px;  
+}
+
+
+.btn-success {
+    background-color: #50603A !important; /* Creo que es el color de los boton de iniciar sesion */
+    border-color: #546b45 !important; /* Que es esto? */
+    
+}
+
+.texto_principal {
+    font-size: 40px;
+}
+
+/* 
+    Estilos de la barra inferior donde estan los iconos
+*/
+
+footer {
+    background-color: #E0EFEA;
+    padding: 20px 0;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon, .contact-icon {
+    margin: 0 5px;
+}

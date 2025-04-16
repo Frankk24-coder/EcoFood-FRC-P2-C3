@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFood</title>
+
+    <!-- Esto llama a Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Esto llama a los estilos de la página -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+ <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html"><img src="assets/titulo_ecofood.svg" alt="EcoFood" height="30"></a>
+
+        <!-- 
+        enlaces de navegacion,
+        Debo revisarlo
+        -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="desperdicio_alimentario.html">Desperdicio alimentario</a>
+                </li>
+            </ul>
+
+        <!--
+        Enlaces y botones de registro y iniciar sesión
+        -->    
+        <div class="navbar-nav">
+            <a class="nav-link" href="registrarse.html">Registrate</a>
+            <a class="nav-link" href="iniciar_sesion.html">Iniciar sesión</a>
+        </div>    
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+
+    <!-- Contenedor principal con fondo blanco y bordes redondeados -->
+    <div class="content-box p-4">
+        <!-- Primer párrafo sobre la historia y el impacto económico -->
+        <p class="texto_principal">
+            EcoFood es una compañía de impacto social cuya misión es inspirar y empoderar a todos para luchar juntos contra el desperdicio de alimentos.
+        </p>
+    </div>
+</div>
+
+
+  <footer>
+    <div class="row align-items-center">
+        <div class="col-md-4">
+            <!-- 
+            Iconos de contacto email y teléfono
+            -->
+            <div class="contact-icons">
+                <a href="mailto:info@ecofood.es"><img src="assets/icono_correo.svg" width="40" height="40"alt="Email" class="contact-icon"></a>
+                <a href="tel:+34912345678"><img src="assets/icono_telefono.svg" width="40" height="40" alt="Teléfono" class="contact-icon"></a>
+            </div>
+        </div>
+        <div class="col-md-4 text-center d-flex align-items-center justify-content-center">
+            <!-- Imagen de fondo en el medio -->
+            <img src="assets/fondo_bolsa.png" class="img-fluid" alt="Fondo Ecológico" style="max-height: 200px; object-fit: contain;">
+        </div>
+        <div class="col-md-4">
+            <!-- 
+            Iconos de redes sociales.
+            -->
+            <div class="social-icons">
+                <a href="#" target="_blank"><img src="assets/icono_twitter.svg" width="40" height="40" alt="Twitter" class="social-icon"></a>
+                <a href="#" target="_blank"><img src="assets/icono_facebook.svg" width="40" height="40" alt="Facebook" class="social-icon"></a>
+                <a href="#" target="_blank"><img src="assets/icono_instagram.svg" width="40" height="40" alt="Instagram" class="social-icon"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- 
+  Scripts para darle mas funcionalidad a la página,
+  aun que no se si realmente los usare,
+  pero salia en la DOCS de bootstrap, 
+  asi que por eso los puse pero no se que ocurrira si los quitos
+-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

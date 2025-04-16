@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFood - Quienes Somos</title>
+
+    <!-- Esto llama a Bootstrap - Framework CSS que facilita el diseño responsive -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Esto llama a los estilos personalizados de la página -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra de Navegación - Es importante mantenerla igual en todas las páginas -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- Logo o nombre de la empresa que lleva a la página principal -->
+            <a class="navbar-brand" href="index.html"><img src="assets/titulo_ecofood.svg" alt="EcoFood" height="30"></a>
+
+            <!-- Botón hamburguesa que aparece en dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Enlaces de navegación principal -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <!-- 'active' indica la página actual -->
+                        <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="desperdicio_alimentario.html">Desperdicio alimentario</a>
+                    </li>
+                </ul>
+
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="registrarse.html">Registrarte</a>
+                    <a class="nav-link" href="iniciar_sesion.html">Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4">
+
+        <h1 class="text-center mb-5">Quienes somos</h1>
+
+
+        <div class="content-box p-4">
+
+   
+            <p class="mb-4">
+                Fundada en 1980, EcoFood es un consorcio constituido por la Comunidad de Madrid, 
+                el Ayuntamiento de Madrid, la Cámara de Comercio e Industria y la Fundación Montemadrid. 
+                Nuestra actividad supone un impacto económico para el territorio de 5.104 millones de euros 
+                y genera más de 39.000 empleos.
+            </p>
+
+            <!-- Segundo párrafo -->
+            <p>
+                En EcoFood tenemos un objetivo muy claro, ser un lugar en el que conectar. 
+                Conectar intereses, retos, inquietudes, conocimiento, aficiones y pasiones. 
+                Para ello, llevamos 40 años diseñamos entornos en los que las personas, 
+                las empresas y la sociedad se encuentren y compartan intereses y retos.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Pie de página con iconos de contacto y redes sociales -->
+    <footer>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <!-- 
+                Iconos de contacto email y teléfono
+                -->
+                <div class="contact-icons">
+                    <a href="mailto:info@ecofood.es"><img src="assets/icono_correo.svg" width="40" height="40"alt="Email" class="contact-icon"></a>
+                    <a href="tel:+34912345678"><img src="assets/icono_telefono.svg" width="40" height="40" alt="Teléfono" class="contact-icon"></a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center d-flex align-items-center justify-content-center">
+                
+                <!-- Imagen de fondo en el medio -->
+                <img src="assets/fondo_bolsa.png" class="img-fluid" alt="Fondo Ecológico" style="max-height: 200px; object-fit: contain;">
+            </div>
+            <div class="col-md-4">
+                <!-- 
+                Iconos de redes sociales.
+                -->
+                <div class="social-icons">
+                    <a href="#" target="_blank"><img src="assets/icono_twitter.svg" width="40" height="40" alt="Twitter" class="social-icon"></a>
+                    <a href="#" target="_blank"><img src="assets/icono_facebook.svg" width="40" height="40" alt="Facebook" class="social-icon"></a>
+                    <a href="#" target="_blank"><img src="assets/icono_instagram.svg" width="40" height="40" alt="Instagram" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts de Bootstrap - Necesarios para funcionalidades como el menú móvil -->
+    <!-- jQuery primero, luego Popper.js, y finalmente Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
